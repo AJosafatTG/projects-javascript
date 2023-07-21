@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">Tienda Online</h1>
+            <button id="open-menu" class="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside class="aside-menu">
+            <button id="close-menu" class="close-menu">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <header>
+                <h1 class="logo">Tienda Online</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="btn-menu btn-back " href="./index.html"><i class="bi bi-arrow-return-left"></i>Seguir Comprando </a>
+                    </li>
+                    <li>
+                        <a class="btn-menu btn-car active" href="./carrito.html"><i class="bi bi-cart4"></i>Carrito </a>
+                    </li>
+            </nav>
+            <footer class="text-footer">&#169; DesignBrain 2023 </footer>
+        </aside>
+        <main>
+            <h2 class="title-principal">Carrito de Compras</h2>
+            <div class="container-shop">
+                <p id="car-empty" class="car-empty">Tu carrito está vacío.</p>
+                <div id="container-car-products" class="car-products disabled">
+                    <!--Esto se autorellena con JS-->
+                </div>
+                <div id="car-actions" class="car-actions disabled">
+                    <div class="car-actions-left">
+                        <button id="car-actions-empty" class="car-actions-empty">Vaciar Carrito</button>
+                    </div>
+                    <div class="car-actions-right">
+                        <div class="car-actions-lot">
+                            <p>Total:</p>
+                            <p id="total">$3,000</p>
+                        </div>
+                        <button id="car-actions-buy" class="car-actions-buy">Comprar Ahora</button>
+                    </div>
+                </div>
+                <p id="car-buyed" class="car-buyed disabled">¡Gracias! por tu compra. ¡Vuelva pronto!.</p>
+            </div>
+        </main>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/carrito.js"></script>
+
+    <script src="./js/menu.js"></script>
+</body>
+</html>
