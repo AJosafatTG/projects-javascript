@@ -13,3 +13,5 @@ Parallax Effect with Library
 Calculator HTML, CSS and JavaScript
 ![Calculator](https://github.com/AJosafatTG/projects-javascript/assets/65469726/643a9ce5-e86f-4945-a703-fc04900fa175)
 
+Clone Spotify JavaScript
+![clone-spotify](https://github.com/AJosafatTG/projects-javascript/assets/65469726/e82bb26f-b347-47df-bb0e-0eff00ee2fac)
