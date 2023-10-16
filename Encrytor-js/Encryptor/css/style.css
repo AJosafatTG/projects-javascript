@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #090c31;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    color:white;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 6rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.container-text{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+textarea {
+    resize: none;
+    width: 900px;
+    height: 450px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: #15173c;
+    border-color: transparent;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+.side-text-left {
+    background-color: #e6394a;
+    width: 250px;
+    height: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.text-output {
+    width: 250px;
+    height: 450px;
+    padding: 1rem;
+}
+
+
+
+.text-result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container-result {
+    width: 250px;
+    height: 450px;
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.btn {
+    margin: 1rem;
+}
+
+.btn-copy {
+    background-color: white;
+    font-size: 16px;
+    border-radius: 1rem;
+    color: black;
+    border: 2px solid #090c31;
+    padding: .5rem 1.5rem;
+    transition-duration: 0.4s;
+}
+
+.btn-copy:hover {
+    background-color: #090c31; 
+    color: white;
+}
+
+.content-bottom {
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: column; 
+}
+
+.text-bottom {
+    display: flex;
+    gap: .5rem;
+    margin: .5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding: 0 6rem;
+}
+
+.btn-encrypt {
+    background-color: white;
+    font-size: 24px;
+    border-radius: 1rem;
+    color: black;
+    border: 2px solid green;
+    padding: .5rem 1rem;
+    transition-duration: 0.4s;
+}
+
+.btn-encrypt:hover {
+    background-color: green; 
+    color: white;
+}
+
+.btn-decrypt {
+    background-color: white;
+    font-size: 24px;
+    border-radius: 1rem;
+    color: black;
+    border: 2px solid red;
+    padding: .5rem 1rem;
+    transition-duration: 0.4s;
+}
+
+.btn-decrypt:hover {
+    background-color: red; 
+    color: white;
+}
+
+.hide {
+    display: none;
+}
