@@ -15,3 +15,7 @@ Calculator HTML, CSS and JavaScript
 
 Clone Spotify JavaScript
 ![clone-spotify](https://github.com/AJosafatTG/projects-javascript/assets/65469726/e82bb26f-b347-47df-bb0e-0eff00ee2fac)
+
+Encryptor of Text
+![Encryptor](https://github.com/AJosafatTG/projects-javascript/assets/65469726/fcff6820-182c-45e7-b2e9-f3e9d207306d)
+
